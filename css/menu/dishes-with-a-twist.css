@@ -99,7 +99,7 @@
 }
 
 .first-img-appetizers {
-    background-image: url(/images/menu/menu-2.webp);
+    background-image: url(images/menu/menu-2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -108,7 +108,7 @@
 }
 
 .second-img-appetizers {
-    background-image: url(/images/menu/menu-3.webp);
+    background-image: url(images/menu/menu-3.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
