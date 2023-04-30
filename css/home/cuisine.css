@@ -1,0 +1,309 @@
+.modern-italian-section {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.modern-italian-section .next-section-scroll {
+    text-align: center;
+}
+
+.modern-italian-section .modern-italian-section-right-side {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.modern-italian-section .modern-italian-section-right-side > * {
+    width: 100%;
+}
+
+.modern-italian-section .modern-italian-section-right-side .text-container,
+.story-of-the-restaurant .modern-italian-section-right-side .text-container {
+    padding: 15% 5% 5%;
+}
+
+.image-container {
+    height: 250px;
+    background-image: url('/images/home/HomePage-Hero-Img_1-04082022.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.text-container h3 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+.text-container h1 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    font-weight: 100;
+    line-height: 25px;
+    opacity: 0.7;
+}
+
+.image-and-arrow-container {
+    position: relative;
+}
+
+.image-and-arrow-container .image-container {
+    width: 100%;
+    height: 250px;
+    background-image: url('/images/home/HomePage-Hero-Img_1-04082022.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.next-section-scroll {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    animation: fadeInUpScrollButton ease-in-out 0.8s;
+}
+
+.next-section-scroll a {
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.next-section-scroll svg {
+    font-size: 35px;
+    padding-top: 20px;
+    height: 32px;
+}
+
+
+/* -----Cards Section----- */
+.mini-cards-section {
+    margin: 10% 0% 10%;
+    padding: 20% 0%;
+    text-align: center;
+}
+
+.mini-card {
+    padding: 0% 20% 10%;
+}
+
+.mini-card svg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.mini-card h3 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 8px 0px 16px;
+}
+
+.mini-card p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
+}
+
+/* -----Media Queries ----- */
+
+@media(min-width: 765px) {
+    .site-logo {
+        height: 95px;
+        width: 180px;
+    }
+
+    .site-logo img {
+        width: 60%;
+        padding-left: 24px;
+        padding-top: 16px;
+    }
+
+    .mobile-main-menu {
+        top: 99px;
+        height: 223px;
+    }
+
+    .modern-italian-section {
+        flex-direction: row-reverse;
+    }
+
+    .modern-italian-section .next-section-scroll {
+        align-self: flex-end;
+    }    
+
+    .text-container {
+        text-align: left;
+    }
+
+    .text-container h3 {
+        font-size: 22px;
+        line-height: 16px;
+        padding-bottom: 6px;
+    }
+
+    .text-container h1 {
+        font-size: 45px;
+        font-weight: 300;
+    }
+
+    .image-and-arrow-container {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .image-and-arrow-container .image-container {
+        width: 90%;
+        height: 435px;
+    }
+
+    .next-section-scroll {
+        margin-bottom: 80px;
+        width: 10%;
+    }
+
+    /* -----Media Queries For Cards Section----- */
+    .mini-cards-section {
+        padding: 10% 5%;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .mini-card {
+        text-align: center;
+    }
+
+    .pastries,
+    .food {
+        border-right: 1px solid var(--border-color);
+    }
+
+    .food,
+    .breakfasts {
+        border-top: 1px solid var(--border-color);
+        padding: 10% 20% 0%;
+    }
+}
+
+@media(min-width: 1025px) {
+    .mobile-main-menu {
+        top: 0;
+        height: 0px;
+    }
+
+    .site-logo {
+        height: 100%;
+        width: 112px;
+    }
+
+    .modern-italian-section {
+        display: flex;
+    }
+
+    .modern-italian-section-right-side {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .padding-adjustment {
+        width: 50%;
+    }
+
+    .modern-italian-section {
+        flex-direction: row;
+    }
+
+    .modern-italian-section .modern-italian-section-right-side {
+        flex-direction: row;
+    }
+
+    .modern-italian-section .text-container {
+        padding: 0% 20% 0% 8%;
+    }
+
+    .story-of-the-restaurant .text-container {
+        padding: 0% 15%;
+    }
+
+    .image-container {
+        height: 90vh;
+        width: 50%;
+        background-image: url('/images/home/HomePage-Hero-Img_1-04082022.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .image-and-arrow-container {
+        flex-direction: row-reverse;
+        width: 60%;
+    }
+
+    .left-column, .next-section-scroll {
+        width: 112px;
+    }
+
+    .next-section-scroll {
+        min-width: 112px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .text-container h3 {
+        font-size: 25px;
+    }
+
+    .text-container h1 {
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    .image-and-arrow-container {
+        height: 90vh;
+    }
+
+    .image-and-arrow-container .image-container  {
+        width: 90%;
+        height: 90vh;
+    }
+
+        /* -----Media Queries For Cards Section----- */
+
+    .mini-cards-section {
+        display: flex;
+        max-width: 1400px;
+        padding: 15% 0% 15%;
+        margin: 0 auto;
+    }
+
+    .mini-card {
+        padding: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .food,
+    .breakfasts {
+        border-top: unset;
+    }
+
+    .juices {
+        border-right: 1px solid var(--border-color);
+    }
+}

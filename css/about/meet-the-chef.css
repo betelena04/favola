@@ -1,0 +1,112 @@
+.meet-the-chef {
+    padding: 0% 5%;
+}
+
+.meet-the-chef-text {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0% 10% 0% 11%;
+}
+
+.meet-the-chef-text h3 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.9;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.meet-the-chef-text h2 {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.meet-the-chef-text p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.7;
+    line-height: 1.6em;
+}
+
+.chef-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chef-cards img {
+    width: 100%;
+    max-width: 491px;
+}
+
+.chef-first-card {
+    padding: 10px;
+}
+
+.chef-second-card {
+    padding: 40px 10px 10px 10px;
+}
+
+/* -----Media Queries ----- */
+
+@media(min-width: 770px) {
+    .meet-the-chef-text h3 {
+        font-size: 22px;
+    }
+
+    .meet-the-chef-text h2 {
+        font-size: 35px;
+    }
+
+    .chef-cards {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .chef-first-card {
+        width: 50%;
+    }
+
+    .chef-second-card {
+        width: 50%;
+        padding: 10px;
+    }
+} 
+
+@media(min-width: 1024px) {
+    .meet-the-chef {
+        padding: 0px 50px 0px 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .meet-the-chef-text {
+        padding: 0% 10% 0% 0%;
+        text-align: left;
+        width: 50%;
+    }
+
+    .meet-the-chef-text h3 {
+        font-size: 25px;
+    }
+
+    .meet-the-chef-text h2 {
+        font-size: 45px;
+        width: 100%;
+    }
+
+    .chef-first-card {
+        padding-bottom: 60px;
+    }
+
+    .chef-second-card {
+        padding-top: 60px;
+    }
+}

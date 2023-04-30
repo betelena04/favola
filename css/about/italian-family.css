@@ -1,0 +1,163 @@
+.italian-family-restaurant {
+    margin: 15% 0% 15%;
+    padding: 0% 5%;
+}
+
+.family-text-container {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0% 10%;
+}
+
+.family-text-container h3 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    opacity: 0.8;
+    padding-bottom: 4px;
+}
+
+.family-text-container h2 {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.img-and-cards {
+    padding: 0% 10%;
+}
+
+.italian-img-card {
+    text-align: right;
+}
+
+.italian-img-card img {
+    width: 88%;
+    box-shadow: -35px 35px 0px 0px #ffc64c;
+}
+
+.italian-about {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.italian-card {
+    border-bottom: var(--border-color) 1px solid;
+}
+
+.italian-card.without-border {
+    border-bottom: none;
+}
+
+.italian-card h4 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.italian-card p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6em;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+/* -----Media Queries ----- */
+
+@media(min-width: 770px) {
+    .family-text-container {
+        margin-bottom: 15px;
+    }
+
+    .italian-about {
+        margin-top: 0px;
+        padding: 5%;
+    }
+
+    .img-and-cards {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .italian-card.without-border p {
+        margin-bottom: 0px;
+    }
+
+    .italian-card .less-margin {
+        margin: 0px 0px 20px;
+    }
+
+    .italian-img-card {
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    .italian-img-card img {
+        width: 60%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .italian-family-restaurant {
+        margin: 15% 0%;
+        padding: 10px;
+    }
+
+    .family-text-container {
+        padding: 0%;
+        margin-bottom: 20px;
+    }
+
+    .family-text-container h3 {
+        font-size: 25px;
+        padding-bottom: 6px;
+    }
+
+    .family-text-container h2 {
+        font-size: 45px;
+    }
+
+    .img-and-cards {
+        display: flex;
+        flex-direction: row;
+        padding: 0%;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .italian-img-card {
+        width: 100%;
+        margin-top: 0%;
+        align-self: center;
+        text-align: right;
+    }
+
+    .italian-img-card img {
+        width: 90%;
+    }
+
+    .italian-about {
+        width: 80%;
+        padding: 0px 101px 0px 75px;
+        text-align: left;
+    }
+
+    .italian-card p {
+        margin-bottom: 35px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .italian-family-restaurant {
+        max-width: 1400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

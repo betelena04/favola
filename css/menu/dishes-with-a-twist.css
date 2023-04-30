@@ -1,0 +1,213 @@
+.dishes-with-a-twist {
+    padding: 0% 5%;
+    margin: 15% auto 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dishes-with-a-twist-text {
+    text-align: center;
+    padding: 10px;
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.dishes-with-a-twist-text h3 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1em;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-bottom: 4px;
+}
+
+.dishes-with-a-twist-text h2 {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.dishes-with-a-twist-text p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6em;
+    opacity: 0.8;
+}
+
+.apetizers {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.appetizer span {
+    white-space: nowrap;
+}
+
+.appetizers-text {
+    text-align: center;
+}
+
+.appetizers-text h3 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2em;
+    font-weight: 100;
+    margin-bottom: 6px;
+}
+
+.appetizers-text h2 {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.apetizers-container {
+    margin-top: 30px;
+}
+
+.appetizer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.appetizer span {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4em;
+    max-width: 187px;
+}
+
+.appetizer-border {
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: var(--border-color);
+    height: 1px;
+    width: 100%;
+}
+
+.apetizers-container p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6em;
+    opacity: 0.8;
+}
+
+.first-img-appetizers {
+    background-image: url(/images/menu/menu-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 50px;
+    height: 370px;
+}
+
+.second-img-appetizers {
+    background-image: url(/images/menu/menu-3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 50px;
+    height: 370px;
+}
+
+/* -----Media Queries ----- */
+
+@media(min-width: 770px) {
+    .dishes-with-a-twist-text h3 {
+        font-size: 22px;
+    }
+
+    .dishes-with-a-twist-text h2 {
+        font-size: 35px;
+    }
+
+    .appetizers-text h3 {
+        text-align: left;
+        font-size: 18px;
+        font-weight: 100;
+        opacity: 0.8;
+    }
+
+    .appetizers-text h2 {
+        font-size: 25px;
+    }
+
+    .appetizers-img {
+        display: flex;
+    }
+
+    .first-img-appetizers {
+        width: 50%;
+        height: 600px;
+        margin-right: 20px;
+    }
+
+    .second-img-appetizers {
+        width: 50%;
+        height: 600px;
+        margin-left: 20px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .dishes-with-a-twist {
+        padding: 0px 150px;
+    }
+
+    .dishes-with-a-twist-text h3 {
+        font-size: 25px;
+    }
+
+    .dishes-with-a-twist-text h2 {
+        font-size: 45px;
+    }
+
+    .the-menu-and-images {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 50px;
+    }
+    
+    .apetizers {
+        width: 33.33%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 50px;
+    }
+
+    .appetizers-text h3 {
+        font-size: 20px;
+    }
+
+    .appetizers-text h2 {
+        font-size: 35px;
+    }
+
+    .appetizers-img {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+
+    .first-img-appetizers {
+        width: 50%;
+        height: 100%;
+        margin-left: 20px;
+        margin-right: 0px;
+        padding: 10px;
+    }
+
+    .second-img-appetizers {
+        width: 50%;
+        height: 100%;
+        margin-right: 20px;
+        margin-left: 0px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,38 @@
+.special-events {
+    padding: 0% 5%;
+    margin: 15% 0% 10%;
+    align-items: center;
+    text-align: center;
+}
+
+.private-room-img.special {
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: -35px 35px 0px 0px #ffc64c;
+    width: 78%;
+}
+
+/* -----Media Queries ----- */
+@media(min-width: 1024px) {
+    .special-events {
+        padding: 10px;
+    }
+
+    .special-events-container {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1400px;
+        margin-top: 80px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .private-room-img.special img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .the-concept-text.culinary {
+        padding: 0% 10%;
+    }
+}

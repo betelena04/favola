@@ -1,0 +1,95 @@
+.great-flavors {
+    padding: 0% 5%;
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+.introduction-flavors h3 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    opacity: 0.8;
+    margin-bottom: 2px;
+}
+
+.introduction-flavors h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.card h4 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+
+/* -----Media Queries ----- */
+
+@media(min-width: 770px) {
+    .great-flavors {
+        padding: 0px 30px;
+    }
+
+    .introduction-flavors h3 {
+        font-size: 22px;
+    }
+
+    .introduction-flavors h2 {
+        font-size: 35px;
+    }
+
+    .great-flavors-cards {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .card {
+        padding: 0px 20px;
+        text-align: start;
+    }
+
+    .menu-button {
+        margin-top: 30px;
+    }
+}
+
+@media(min-width: 1025px) {
+    .introduction-flavors h3 {
+        font-size: 25px;
+    }
+
+    .introduction-flavors h2 {
+        font-size: 45px;
+    }
+
+    .great-flavors-cards{
+        display: flex;
+    }
+}

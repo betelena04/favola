@@ -1,0 +1,91 @@
+.food-is-important {
+    margin-bottom: 30px;
+    height: 90vh;
+}
+
+.food-is-important-image {
+    background-image: url(/images/home/food-is-important-img.webp);
+    background-position: -536px -98px;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.food-is-important-text {
+    padding: 0% 5% 15%;
+}
+
+.food-is-important-text h3 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+
+.food-is-important-text h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.food-is-important-text p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 35px;
+    opacity: 0.7;
+}
+
+
+/* -----Media Queries ----- */
+
+@media(min-width: 770px) {
+    .food-is-important-text {
+        padding: 0% 5% 15%;
+    }
+
+    .food-is-important-text h3 {
+        font-size: 22px;
+    }
+
+    .food-is-important-text h2 {
+        font-size: 35px;
+    }
+
+    .food-is-important-text p {
+        padding-right: 26%;
+    }
+}
+
+@media(min-width: 1025px) {
+    .food-is-important {
+        width: 90%;
+        height: 700px;
+    }
+
+    .food-is-important-image {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .food-is-important-text {
+        padding: 0% 55% 0% 10%;
+    }
+
+    .food-is-important-text h3 {
+        font-size: 25px;
+    }
+
+    .food-is-important-text h2 {
+        font-size: 45px;
+    }
+
+    .food-is-important-text p {
+        padding-right: 26%;
+    }
+
+}

@@ -1,0 +1,47 @@
+.last-cards {
+    margin-top: 100px;
+    padding: 0% 5%;
+    text-align: center;
+}
+
+.italian-card.events {
+    border-bottom: none;
+}
+
+.display-flex.events {
+    margin-top: 10%;
+    padding: 0% 5%;
+}
+
+/* -----Media Queries ----- */
+@media(min-width: 770px) {
+    .display-flex.events {
+        margin-top: 0%;
+        padding: 0% 0% 0% 5%;
+        margin-bottom: 15%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .last-cards {
+        display: flex;
+        text-align: left;
+        padding: 0%;
+        max-width: 1400px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5%;
+    }
+
+    .italian-card.events {
+        padding-right: 5%;
+    }
+
+    .display-flex.events {
+        max-width: 1400px;
+        padding-left: 0%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15%;
+    }
+}

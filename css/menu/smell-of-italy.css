@@ -1,0 +1,29 @@
+.our-restaurant.smell {
+    background-image: url(/images/menu/menu-1.png);
+    background-position: -218px 0;
+}
+
+/* -----Media Queries ----- */
+
+@media(min-width: 770px) {
+    .our-restaurant.smell {
+        background-position: 0px 0;
+        justify-content: flex-end;
+    }
+
+    .our-restaurant-text.smell {
+        padding: 0% 3% 0% 50%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .our-restaurant-text.smell {
+        padding: 0% 3% 0% 57%;
+    }
+}
+
+@media(min-width: 1400px) {
+    .our-restaurant-text.smell {
+        padding: 0% 3% 0% 40%;
+    }
+} 

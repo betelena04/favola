@@ -1,0 +1,114 @@
+.main-course {
+    padding: 0% 5%;
+}
+
+/* Hunger is the best sauce */
+.hunger-is-the-best-sauce {
+    max-width: 100%;
+}
+
+.hunger-card {
+    min-height: 450px;
+    background-color: var(--pink);
+    box-shadow: -35px 35px 0px 0px #ffc64c ;
+    margin: 0% 10% 0% 15%;
+    display: flex;
+    align-items: center;
+}
+
+.hunger-text {
+    text-align: center;
+    padding: 0% 15%;
+    margin: 0 auto;
+}
+
+.hunger-text h2 {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+
+.hunger-text h4 {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+/* Media queries */
+
+@media(min-width: 770px) {
+    .main-course {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Hunger is the best sauce */
+    .hunger-card {
+        margin: 0% 10%;
+    }
+
+    .hunger-text h2 {
+        font-size: 43px;
+    }
+
+    .hunger-text h4 {
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .main-course {
+        padding: 0px 150px;
+    }
+
+    .apetizers.main {
+        width: 100%;
+        margin-top: 20%;
+        margin-bottom: 80px;
+        padding-left: 0px;
+    }
+
+    .appetizers-text h2 {
+        text-align: left;
+    }
+
+    .appetizer span {
+        white-space: nowrap;
+    }
+
+    .main-course-cards {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .first-main-container {
+        padding-right: 30px;
+    }
+
+    .second-main-container {
+        padding: 0px 30px;
+    }
+
+    .last-main-container {
+        padding-left: 30px;
+    }
+
+    /* Hunger is the best sauce */
+    .hunger-card {
+        margin: 0 auto;
+        max-width: 1400px;
+    }
+
+    .hunger-text {
+        padding: 0% 35%;
+    }
+
+    .hunger-text h2 {
+        font-size: 45px;
+    }
+}
