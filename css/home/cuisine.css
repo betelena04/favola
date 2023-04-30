@@ -23,7 +23,7 @@
 
 .image-container {
     height: 250px;
-    background-image: url('images/home/HomePage-Hero-Img_1-04082022.jpg');
+    background-image: url('../../images/home/HomePage-Hero-Img_1-04082022.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -63,7 +63,7 @@
 .image-and-arrow-container .image-container {
     width: 100%;
     height: 250px;
-    background-image: url('images/home/HomePage-Hero-Img_1-04082022.jpg');
+    background-image: url('../../images/home/HomePage-Hero-Img_1-04082022.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -242,7 +242,7 @@
     .image-container {
         height: 90vh;
         width: 50%;
-        background-image: url('images/home/HomePage-Hero-Img_1-04082022.jpg');
+        background-image: url('../../images/home/HomePage-Hero-Img_1-04082022.jpg');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;

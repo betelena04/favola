@@ -9,7 +9,7 @@
 }
 
 .dessert-img-container {
-    background-image: url(images/menu/Dessert.png);
+    background-image: url('../../images/menu/Dessert.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -334px 0px;
